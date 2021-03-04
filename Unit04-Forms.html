@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="Utf-8">
+        <title>Unit 04 Notes</title>
+    </head>
+    <body>
+        <h1>College Application</h1>
+        <form action="mailto:nisteven@syr.edu" method="POST">
+            <label for="firstname">Enter first name</label>
+            <!--for attribute tells browser which form element this lable links to-->
+            <!--must match value in id attribute-->
+            <input type="text" name="firstname" id="firstname"><br>
+
+            <label for="Comments">Enter your comments</label>
+            <textarea name="comments" id="comments" rows="10" cols="100"> Tell us what you think!!
+            </textarea> <br>
+            <p>Enter your salutation</p>
+            <label for="salutation_mr">Mr.</label>
+            <input type="radio" name="salutation" id="salutation_mr" value="Mr.">
+            <label for="salutation">Ms.</label>
+            <input type="radio" name="salutation" id="salutation" value="Mr.">
+            <label for="salutation">Dr.</label>
+            <input type="radio" name="salutation" id="salutation_Dr." value="Mr."><br>
+            <label for="veteran">Are you a veteran?</label>
+            <input type="checkbox" name="veteran" id="veteran" value="Yes"><br>
+            <label for="year">Year in School </label> 
+                <select name="Year" id="year">
+                    <option value="fr" >Freshman</option>
+                    <option value="so">Sophomore</option>
+                    <option value="ju">Junior</option>
+                    <option value="se">Senior</option>
+
+
+                </select> <br>
+                
+
+
+
+            <input type="submit"value="Send Application">
+
+
+        </form>
+
+        
+    </body>
+</html>
