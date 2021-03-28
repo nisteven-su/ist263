@@ -1,0 +1,34 @@
+body{
+    background-color: #fae6f8;}
+
+    a:link {color: #70516d;}
+
+    a:visited {color: #c7a4ed;}
+    
+    a:hover {color:#421e69;}
+
+    p{
+        color:#2f183b}
+    
+h1{ 
+    color:#2f183b
+}
+.evenrow {background-color:seashell;}
+
+title{color:#2f183b}
+
+head{color:#774896}
+
+tr{color:#774896}
+td{color:#774896}
+h2 {color:#774896}
+h3{color:#a384b8}
+caption{color:#2f183b}
+nav a {color: #cbc6cf;}
+
+nav a:hover{background-color: silver;}
+
+nav{
+        padding: 10px;
+        margin-bottom: 30px;
+}
