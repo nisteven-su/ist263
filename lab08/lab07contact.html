@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        .img {width: 20px;}
+        .frame {width: 300px;
+        height: 300px;}
+        .text {width: 250px;
+        height: 40px;}
+       .firstcol {
+           float: left;
+           margin: 1px; 
+           margin-left: 5px;
+           padding: 10px;}
+    
+       .firstrow, .secondrow, .thirdrow {text-align: left;}
+        .secondcol {margin-right: 30px;}
+        .thirdcol {margin-left: 30px;}
+        .firstcol {margin-left: 20px; position: relative; bottom: 25px;}
+        .firstrow { border-radius: 2em;
+  background: #ebdfed;
+  padding: 40px;
+  width: 1100px;
+    }
+        .secondrow {display: flex;
+        justify-content: space-around;}
+        .secondrow { border-radius: 2em;
+  background: #ebdfed;
+  width: 1100px;
+  padding: 50px;}
+.nav{background-color: whitesmoke;}
+
+    
+       
+    </style>
+    <title>Contact</title>
+    <link rel="stylesheet" href="../lab07/styles7.css">
+</head>    
+<body>
+        <nav class="nav">
+        <a href="index.html">Home|</a> 
+        <a href="lab07skills.html">Skills|</a>
+         <a href="lab07contact.html">Contact|</a>
+        </nav>
+    <h1>Contact</h1>
+
+    <div class=firstrow>
+    <div class="firstcol">
+    <p>
+       <br> Nicole Stevens 
+        <br> 417 Comstock Ave 
+        <br>Syracuse, NY
+        <br>13210
+
+        </div>
+
+        <div class= "secondcol">
+
+        <br> 
+        <a href="mailto:nisteven@syr.edu"> Nicole Stevens Email</a> 
+
+        </div>
+    <br>
+
+    <div class="thirdcol">
+        <a href= "https://www.linkedin.com/in/nicole-stevenss/">My Linkedin Profile</a>
+        <img class= "img" src="../Images/Linkedin.svg" alt="Linkedin">
+        </div>
+        </div>
+    
+        <br>
+        <div class="secondrow">
+        <div class="fourthcol">
+    
+        <iframe class= "frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.9533326723213!2d-76.13222174859027!3d43.04241337904461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f30af9fc5e21%3A0x1f9bfdba6327baf8!2sPark%20Point!5e0!3m2!1sen!2sus!4v1614272727781!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </p> 
+
+    <div class="fifthcol">
+    <h1>Questions or Comments</h1>
+    <form action="mailto:nisteven@syr.edu" method="POST">
+        <label for="firstname">Enter first name</label> 
+        <input type="text" name="firstname" id="firstname"><br>
+
+        <label for="comments">Enter your comments</label> <br>
+        <textarea class= "text" name="comments" id="comments" rows="10" cols="100"> 
+        </textarea> <br>
+        <p>Gender</p>
+        <label for="gender_female">Female</label>
+        <input type="radio" name="gender" id="gender_female" value="female">
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" id="gender" value="Male">
+        <label for="gender">Non Binary</label>
+        <input type="radio" name="gender" id="gender_nonbinary." value="nonbinary"><br>
+        
+           <br>
+            
+        <input type="submit" value="Send Application">
+
+    </div>
+    </div>
+
+    </form>
+</body>
+</html>
