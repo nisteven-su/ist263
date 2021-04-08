@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name= "viewport" content="width=device=witdth, initial-scale=1.0">
+    <style>
+          .nav {color: whitesmoke;}
+        .img {width: 20px;}
+        .frame {width: 300px;
+        height: 300px;}
+        .text {width: 250px;
+        height: 40px;}
+      .firstcol {float: left;}
+      .clear {clear: both;}
+      .secondcol {float: right;}
+      .thirdcol {float: right;}
+      .firstrow { border-radius: 2em;
+  background: #ebdfed;
+  padding: 30px;
+  width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+    }
+    .secondrow {display: flex;
+        justify-content: space-around;}
+        .secondrow { border-radius: 2em;
+  background: #ebdfed;
+  width: 900px;
+  padding: 30px; margin-right: auto;
+    margin-left:auto}
+    .secondrow {flex-wrap: wrap;}
+
+
+    </style>
+    <title>Contact</title>
+    <link rel="stylesheet" href="../lab09/styles7.css">
+</head>    
+<body>
+        <nav class="nav">
+            <a href="index.html">Home <span> | </span> </a>
+            <a href="lab07skills.html">Skills<span>|</span></a>
+            <a href="lab07contact.html">Contact<span>|</span></a>
+        </nav>
+    <h1>Contact</h1>
+
+    <div class=firstrow>
+    <div class="firstcol">
+        <h2>Address</h2>
+       <br> Nicole Stevens 
+        <br> 417 Comstock Ave 
+        <br>Syracuse, NY
+        <br>13210
+        </div>
+
+        <div class= "secondcol">
+
+        <br> 
+        <a href="mailto:nisteven@syr.edu"> Nicole Stevens Email</a> 
+
+        </div>
+    <br>
+    <div class="clear"></div>
+
+    <div class="thirdcol">
+        <a href= "https://www.linkedin.com/in/nicole-stevenss/">My Linkedin Profile</a>
+        <img class= "img" src="../Images/Linkedin.svg" alt="Linkedin">
+        </div>
+        </div>
+    
+    
+        <br>
+        <div class="secondrow">
+        <div class="fourthcol">
+        <iframe class= "frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.9533326723213!2d-76.13222174859027!3d43.04241337904461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f30af9fc5e21%3A0x1f9bfdba6327baf8!2sPark%20Point!5e0!3m2!1sen!2sus!4v1614272727781!5m2!1sen!2sus" title="google maps" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+    <div class="fifthcol">
+    <h1>Questions or Comments</h1>
+    <form action="mailto:nisteven@syr.edu" method="POST"> 
+        <label for="firstname">Enter first name</label> 
+        <input type="text" name="firstname" id="firstname"><br>
+
+        <label for="comments">Enter your comments</label> <br>
+        <textarea class= "text" name="comments" id="comments" rows="10" cols="100"> 
+        </textarea> <br>
+        <p>Gender</p>
+        <label for="gender_female">Female</label>
+        <input type="radio" name="gender" id="gender_female" value="female">
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" id="gender" value="Male">
+        <label for="gender">Non Binary</label>
+        <input type="radio" name="gender" id="gender_nonbinary." value="nonbinary"><br>
+        
+           <br>
+            
+        <input type="submit" value="Send Application">
+    
+    </form>
+    </div>
+    </div>
+</body>
+</html>

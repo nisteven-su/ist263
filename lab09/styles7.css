@@ -7,12 +7,14 @@ body{
     
     a:hover {color:#421e69;}
 
+
     p{
         color:#2f183b}
     
 h1{ 
     color:#2f183b
 }
+.nav {background-color: whitesmoke;}
 .evenrow {background-color:seashell;}
 
 title{color:#2f183b}
@@ -28,11 +30,8 @@ nav a {color: #cbc6cf;}
 
 nav a:hover{background-color: silver;}
 
-nav{
-        padding: 10px;
-        margin-bottom: 30px;
-}
-.nav {background-color: whitesmoke}
 @media only screen and (max-width: 600px) {
-    nav {display: block;}
-    
+a {display: block;}
+span {display: none;}
+
+}
