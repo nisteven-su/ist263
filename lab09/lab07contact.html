@@ -10,14 +10,14 @@
         height: 300px;}
         .text {width: 250px;
         height: 40px;}
-      .firstcol {float: left;}
+        .address {float: left;}
       .clear {clear: both;}
-      .secondcol {float: right;}
-      .thirdcol {float: right;}
+      .linkedin {float: right;}
+      .email {float: right;}
       .firstrow { border-radius: 2em;
   background: #ebdfed;
-  padding: 30px;
-  width: 900px;
+  padding: 20px;
+  max-width: 900px;
   margin-right: auto;
   margin-left: auto;
     }
@@ -25,10 +25,9 @@
         justify-content: space-around;}
         .secondrow { border-radius: 2em;
   background: #ebdfed;
-  width: 900px;
-  padding: 30px; margin-right: auto;
+  max-width: 900px;
+  padding: 20px; margin-right: auto;
     margin-left:auto}
-    .secondrow {flex-wrap: wrap;}
 
 
     </style>
@@ -45,25 +44,30 @@
 
     <div class=firstrow>
     <div class="firstcol">
+        <div class="Address">
         <h2>Address</h2>
        <br> Nicole Stevens 
         <br> 417 Comstock Ave 
         <br>Syracuse, NY
         <br>13210
         </div>
+        </div>
 
         <div class= "secondcol">
 
         <br> 
+        <div class="email">
         <a href="mailto:nisteven@syr.edu"> Nicole Stevens Email</a> 
+        </div>
 
         </div>
     <br>
     <div class="clear"></div>
 
     <div class="thirdcol">
-        <a href= "https://www.linkedin.com/in/nicole-stevenss/">My Linkedin Profile</a>
+      <div class="linkedin"><a href= "https://www.linkedin.com/in/nicole-stevenss/">My Linkedin Profile</a> 
         <img class= "img" src="../Images/Linkedin.svg" alt="Linkedin">
+        </div>
         </div>
         </div>
     

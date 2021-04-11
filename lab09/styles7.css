@@ -27,11 +27,13 @@ h2 {color:#774896}
 h3{color:#a384b8}
 caption{color:#2f183b}
 nav a {color: #cbc6cf;}
+.secondrow {flex-wrap: wrap;}
 
 nav a:hover{background-color: silver;}
 
 @media only screen and (max-width: 600px) {
 a {display: block;}
 span {display: none;}
+a {padding: 20px;}
 
 }
