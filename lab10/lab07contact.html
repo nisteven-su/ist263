@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang= "en">
 <head>
     <meta charset="utf-8">
     <meta name= "viewport" content="width=device=witdth, initial-scale=1.0">
@@ -28,6 +28,16 @@
   max-width: 900px;
   padding: 20px; margin-right: auto;
     margin-left:auto}
+    #skip {
+                position: absolute; 
+                left: -999px;
+                background-color: white;
+                border: 1px solid black
+            }
+            #skip:focus {
+                position: absolute;
+                left: 10px;
+            }  
 
 
     </style>
@@ -36,13 +46,15 @@
 </head>    
 <body>
         <nav class="nav">
-            <a href="index.html">Home <span> | </span> </a>
-            <a href="lab07skills.html">Skills<span>|</span></a>
-            <a href="lab07contact.html">Contact<span>|</span></a>
+            <nav class="nav">
+                <a href="#maincontent" id="skip">Skip to Content></a> 
+                <a href="index.html" tabindex="1">Home<span>|</span></a>
+                <a href="lab07skills.html"tabindex="2">Skills<span>|</span></a>
+                 <a href="lab07contact.html" tabindex="3">Contact<span>|</span></a>
         </nav>
     <h1>Contact</h1>
-
-    <div class=firstrow>
+    <a id="maincontent"></a>
+     <div class=firstrow>
     <div class="firstcol">
         <div class="Address">
         <h2>Address</h2>
