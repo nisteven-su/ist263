@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 11 Practice</title>
+        <script>
+        function firstfunction(){
+        alert("You Left this Form Element");
+            }
+        </script>
+
+    </head>
+    <body onload="">
+        <h1>Questions or Comments:</h1>
+        <form action="mailto:nisteven@syr.edu" method="POST">
+            <br>
+            <label for="firstname">Enter first name</label>
+            <input type="text" name="firstname" id="firstname"><br>
+            <label for="Comments">Enter your questions or comments</label>
+            <br>
+            <textarea name="comments" id="comments" rows="10" cols="100"> Tell us what you think!!
+            </textarea> <br>
+
+            <input onblur="firstfunction();" type="submit"value="Send Application">
+
+        </form>
+
+
+    </body>
+ 
+</html>
