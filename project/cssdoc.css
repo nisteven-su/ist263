@@ -1,6 +1,46 @@
-body {background-color: #a9d4a7;}
-
-    a:visited {color: #648f6e;}
-    
-    a:hover {color: #b5af9a;}
+body {font-family: 'Times New Roman', Times, serif;}
+h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+    color:black;
 }
+h2, h3, h4, h5, h6 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+    color:black;
+    font-size: 30px;
+}
+body {background-color: #9fc7a4;}
+
+nav{background-color:#a5b092;
+width: 100%;
+margin: auto;
+font-family: 'Times New Roman', Times, serif
+font-size: medium;
+}
+nav a {color: white;}
+.quote {float: right;}
+
+@media only screen and (max-width: 600px) {
+    a {display: block;}
+    span {display: none;}
+    }
+nav a:hover {
+        background-color: darkseagreen;
+        }
+ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {float: left;}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#logo {padding-top: 5px;}
+#links {padding-top: 20px;}

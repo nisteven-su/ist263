@@ -3,19 +3,48 @@
     <head>
     <meta name= "viewport" content="width=device=witdth, initial-scale=1.0">
     <title>The Eco Edit</title>
+    <style>
+            #skip {
+                position: absolute; 
+                left: -999px;
+                background-color: white;
+                border: 1px solid black
+            }
+            #skip:focus {
+                position: absolute;
+                left: 10px;
+            }
+            .logo {width: 100px;
+            margin-left: 500px;}
+            .rent {width: 500px;
+            margin-left: 500px;}
+            .thrift {width: 500px;
+            margin-left:500px;}
+            .levis {width: 500px;
+            margin-left: 500px;}
+            .vers {width: 500px;
+            margin-left: 500px;}
+        .content {flex-direction: row;}
+    </style>
+
     </head>
+    <link rel="stylesheet" href= "cssdoc.css">
     <body>
-    <nav class= nav>
-        <a href="#maincontent" id="skip">Skip to Content></a> 
-        <img class= "img" src="../Media/logo.png" alt="the eco edit logo">
-        <a href="../project/page1.html"> About Us <span>|</span></a>
-        <a href="../project/page2.html">Background<span>|</span></a>
-         <a href="../project/page3.html" >Eco Fiendly Guide<span>|</span></a>
-    </nav>
+        <nav>
+            <ul>
+        <div id="logo">
+     <li><img class= "logo" src="../Media/logo-removebg-preview.png" alt="the eco edit logo"> </li>
+      <li><a href="#maincontent" id="skip">Skip to Content></a> </li>
+        </div>
+        <div id="links">
+        <li> <a href="../project/page1.html"> About Us <span>|</span></a> </li>
+        <li> <a href="../project/page2.html">Background <span>|</span></a> </li>
+        <li> <a href="../project/page3.html" >Eco Fiendly Guide <span>|</span></a> </li>
+        </ul>
+        </nav>
     <a id="maincontent"></a>
+    <div class="content">
     <h1>Guide on How to be Eco-Friendly as a College Student</h1>
-    <br>
-    <h2>Here's a List of Eco-Friendly Alternatives to Fast Fashion:</h2>
     <br>
     <img class="rent" src="../Media/renttherunway.png" alt="rent the runway picture">
     <h3>Try Renting Items for Big Event, Rather Than Buying</h3>
@@ -32,20 +61,17 @@
         Clothing brands are becoming more environmentally friendly. The popular jean brand, Levi’s has partnered with Cotton’s Blue Jeans Go Green program. This initiative is aimed at recycling denim. At Levi’s stores and outlets they have a recycling box where you can drop off any brand of jeans so that it could be renewed and bought by other consumers. Levi’s uses these jeans to make an extension of their brand, Levi’s Wellthread line. These jeans are made from worn-out jeans. These are offered in men and women sizes. Other brands include Reformation and Girlfriend Collective. The Girlfriend Collective makes activewear made out of recycled materials. </p>
     <br>
     <div>
-    <img class="vers" src="../Media/versatile.png" alt="versatile clothing">
+    <img class="vers" src="../Media/versatiletshirt.png" alt="versatile clothing">
     <h6>Buy Versatile and Durable Clothing</h6>
     <p>The clothing from fast fashion retailers are very affordable. Therefore, the consumer pays for low quality clothing. Although, the products from eco-friendly brands are typically more expensive, they do provide excellent value as they are more durable. More durable clothing will last a longer time and the consumer will get more use of the item. In addition, by purchasing versatile clothing, the consumer does not have to worry about it going out of fashion. They could get more use of the item as they would be able to pair it with other outfits in their wardrobe. For an example, a white shirt would be very versatile and could be used in many outfits. The consumer could dress up or dress down the white shirt for any occasion. 
     </p>
-    </div>
+  </div>
     <br>
     <footer>
         <hr>
         &#169;2020
         <div class="quote">Go Green, Green Goes With Everything</div> 
         <br>
-        <img class= "twitter" src="../Media/twitter-png-5981.png" alt = "twitter symbol">
-        <img class= "insta" src="../Media/logo-instagram-png-13547.png" alt ="instagram symbol">
-        <img class= "face" src="../Media/facebook-logo-png-6381.png" alt= "facebook logo">
         </footer>
     </body>
 </html>
