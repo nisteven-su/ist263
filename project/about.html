@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang= "en">
+    <head>
+        <meta charset="utf-8">
+        <meta name= "viewport" content="width=device=witdth, initial-scale=1.0">
+        <title>The Eco Edit</title>
+        <style>
+                    #skip {
+                position: absolute; 
+                left: -999px;
+                background-color: white;
+                border: 1px solid black
+            }
+            #skip:focus {
+                position: absolute;
+                left: 10px;
+            }
+         .logo {width: 100px;}
+         .about-section {
+             padding: 50px;
+             text-align: center;
+             background-color: #dbd1b4;
+             color: white;
+             float: left;
+         }
+         h1 {color: darkseagreen;}
+         .banner {width: 100%;}
+         .column {
+             float: left;
+             width: 33.3%;
+             margin-bottom: 16px;
+             padding: 0 8px;
+         }
+         .card {
+             box-shadow: 0 4px 8px 0 rgba (0,0,0,0.2);
+             margin: 8px;
+         }
+         .title {color: grey;}
+         .button {
+             border: none;
+             outline: 0;
+             display: inline-block;
+             padding: 8px;
+             color: white;
+             background-color: #000;
+             text-align: center;
+             cursor: pointer;
+             width: 100%;
+         }
+         .button:hover {
+             background-color: #555;
+         }
+         .row {background-color:#dbd1b4;
+        display: table;}
+        .form  {clear: both}
+        </style>
+         <link rel="stylesheet" href= "cssdoc.css">
+        </head>
+    <body>
+        <nav>
+            <ul>
+        <div id="logo">
+     <img class= "logo" src="../Media/logo-removebg-preview.png" alt="the eco edit logo"> 
+      <li><a href="#maincontent" id="skip">Skip to Content></a> </li>
+        </div>
+        <div id="links">
+        <li> <a href="../project/page1.html"> About Us <span>|</span></a> </li>
+        <li> <a href="../project/page2.html">Background <span>|</span></a> </li>
+        <li> <a href="../project/page3.html" >Eco Fiendly Guide <span>|</span></a> </li>
+        </ul>
+        </nav>
+        <img class="banner" src="../Media/new banner.png" alt="The Eco Edit Banner">
+    </div>
+        <div class="about-section">
+        <h1>The High Price of Fast Fashion</h1>
+        <p>Welcome to <strong>the Eco Edit </strong>. We provide information and tips on how to live life sustainably as a college student. Fast fashion’s biggest consumer is students enrolled in college. As a student myself, I know of the struggles of buying ethically and consciously on a lower budget. However, this website aims to educate and offer insight on how to buy sustainably. Every consumer has a role in making ethical decisions for our environment. Your journey starts here….</p>
+        </div>
+    
+    <h2>About Me:</h2>
+    <div class="row">
+        <div class="column">
+        <div class="card">
+        <img src="../Media/bio.png" alt="picture of author" style="width: 100%;">
+        <h3>Nicole Stevens</h3>
+        <p class="title"> Founder</p>
+        <p> I am Nicole Stevens and a senior at Syracuse University. I will be graduating in May 2021 with an undergraduate degree in Policy Studies and a minor in Information Management and Technology. Over my time at Syracuse University, I discovered my growing interest in entering the retail world. I have completed internships at PVH Corp and Ted Baker. From these experiences, I have gained insights on how clothing is manufactured. Therefore, I have gained an understanding of how fast fashion has caused detrimental effects on our planet. In order to combat these growing issues, I believe that investing in “slow” fashion is beneficial to the consumer and the environment.<div> </p> 
+        <p>nisteven@syr.edu</p>
+        <p> <button class= "button" > Contact </button></p>
+        <div class="form">
+            <h3>Contact Us:</h3>
+            <br>
+                <form action="mailto:nisteven@syr.edu" method="POST">
+                    <label for="firstname">Enter First Name</label> 
+                    <input type="text" name="firstname" id="firstname"><br>
+            
+                    <label for="comments">Comments or Questions:</label> <br>
+                    <textarea class= "text" name="comments" id="comments" rows="10" cols="100"> 
+                    </textarea> 
+                </form>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+         <br>
+    </body>
+    </html>
+    
