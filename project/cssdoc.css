@@ -2,7 +2,6 @@ body {font-family: 'Times New Roman', Times, serif;}
 h1 {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 5px;
-    color: #4c914f;
 }
 h2, h3, h4, h5, h6 {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -26,7 +25,7 @@ nav a {color: white;}
     span {display: none;}
     }
 nav a:hover {
-        background-color: darkseagreen;
+        background-color:c;
         }
 ul { 
     list-style-type: none;
