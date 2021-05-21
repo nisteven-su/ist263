@@ -7,7 +7,7 @@ body {
   }
   
   a {
-    color: white;;
+    color: black;
   }
   
   a:hover {
@@ -366,5 +366,5 @@ body {
     font-size: 14px;
     text-align: center;
   }
-li a {color: black;}
+
   
