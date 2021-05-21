@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
   <title>About - The Eco Edit</title>
   <style>
 
@@ -18,72 +20,123 @@
                 position: absolute;
                 left: 10px;
             }
-            .banner {width: 100%;}
-           .php-email-form {width: 100%;}
-           .me {width: 450px;}
-           .form-control {width: 650px;}
-           body {margin:0;height:2000px;}
+            mySlides {display: none}
+img {vertical-align: middle;}
 
-.icon-bar {
-  position: fixed;
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.icon-bar a {
-  display: block;
-  text-align: center;
+  width: auto;
   padding: 16px;
-  transition: all 0.3s ease;
+  margin-top: -22px;
   color: white;
-  font-size: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
 
-.icon-bar a:hover {
-  background-color: #000;
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
 
-.facebook {
-  background: #3B5998;
-  color: white;
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
 }
 
-.twitter {
-  background: #55ACEE;
-  color: white;
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 300px;
+  text-align: center;
+  background-color:#326754;
 }
 
-.google {
-  background: #dd4b39;
-  color: white;
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
 }
 
-.youtube {
-  background: #bb0000;
-  color: white;
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
-.instagram{
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa:hover{
+    opacity: 0.7;
+}
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram{
     background: #125688;
     color: white;
 }
-.content {
-  margin-left: 75px;
-  font-size: 30px;
+.fa-facebook{
+    background: #3B5998;
+    color: white;
 }
-.hm{width: 700px;}
-.conscon{width: 700px;}
-.video {width: 700px;}
 
-
-        
+</style>
   </style>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-  <link rel="shortcut icon" type="image/x-icon" href="../Media/favicon.ico">
-
+  <link href="../Media/newlogo.png" rel="icon">
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
@@ -100,66 +153,116 @@
     <h1>The Eco Edit</h1>
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-            <nav class="nav-menu d-none d-lg-block">
-                <ul>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="guide.html">Eco-Friendly Guide</a></li>
-                    <li><a href="background.html">Background</a></li>
-                  </ul>
-                  </div>
+                <li><a href="about.html">About</a></li>
+                <li><a href="guide.html">Eco-Friendly Guide</a></li>
+                <li><a href="background.html">Background</a></li>
+              </ul>
+              </div>
+          </ul>
           </div>
         </div>
     </nav>
-    <div class="icon-bar">
-        <a href="https://www.facebook.com/theecoedition" class="facebook"><i class="fa fa-facebook"></i></a> 
-        <a href="https://twitter.com/theecoedit_?lang=en" class="twitter"><i class="fa fa-twitter"></i></a> 
-        <a href="https://www.instagram.com/theecoedit_/" class="instagram"><i class="fa fa-instagram"></i></a> 
-      </div>
+
     </div>
-</div>
+
   </header>
   <main id="main">
     <section id="about" class="about">
       <div class="container">
-<div class="section-title">
-    <h2>Background on Fast Fashion</h2>
-    <main id="main">
-      <div class="hmcon">
-      <img class="hm" src="../Media/h&m.png" alt="H&M">
-      <p>The fast fashion industry’s business model has been adopted by many major players in the fashion industry. Retailers including Zara, Asos, H&M, and Misguided have incorporated this model to improve their profit margins. These retailers follow a similar strategy of producing tend-driven apparel and accessories in large quantities. Mass production of their products allows retailers to sell items at affordable prices. These retailers speed up the manufacturing process to meet consumer demands. Fast fashion retailers can complete the garment’s lifecycle from manufacturing to consumers within the span of a few weeks. </p>
-        <hr>
+        <div class="section-title">
+          <h2>How to be Eco-Friendly as a College Student</h2>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext"> 1/4 </div>
+            <img src="../Media/renttherunway.png" style="width: 100%;">
+           <p> <div class="text"> <strong>Try Renting Items for Big Events, Rather than Buying-</strong> A new trend in the fashion industry is clothing rentals. Companies like Rent the Runway and CaStle allow consumers to rent clothing items for events. This helps to prevent consumers from buying from fast fashion retailers that would only be worn a few times. Instead, by renting items you would be able to wear it a few times and then be sent back. Once the item is sent back, other consumers would also be able to rent the item.</div></p>
+        </div>
+    <div class="mySlides fade">
+        <div class="numbertext">2/4</div>
+        <img src="../Media/thrift.png" style="width: 100%;">
+        <div class="text"><strong>Go Thrift Shopping-</strong> thrift shopping is a shopping method that has been adopted by many millennials and Gen Z. By going to consignment shops consumers are able to find many vintage and trendy pieces. Similar to fast fashion, thrift shopping is cost efficient. However, thrift shopping is beneficial for the environment as it allows for the circulation of clothing items and prevents it from going to the landfill. Second hand has finally made its way to the internet. Online retailers including Thred Up and Poshmark allows consumers to buy second-hand clothing for a fraction of the price. It helps to reduce the hassle of going shopping at stores.</div>
     </div>
-      <section id="about" class="about">
-        <div class="container">
-          <div class="section-title">
-          <div class="college">
-            <h3>Consumer Demographic</h3>
-            <img class="conscon" src="../Media/college.png">
-            <p>The business model is favorable to consumers as the latest styles will be accessible to all classes of consumers. The premise of the business model is appealing towards the college student demographic. College students have limited financial resources to spend on clothing. Therefore, they are the main contributors to the fast fashion industry as they want clothing that is considered fashionable and socially appealing. However, the business model encourages consumers to view clothing as disposable. This causes the apparel items to be worn less before dispersing and shortening the lifespan of the product.</p>
-          </div>
-          <hr>
-              <div class="section-title">
-                  <h3>Enviornmental Hazards</h3>
-                  <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/YOA0D0i5-fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h5>Land Pollution</h5>
-                    <p>As the fast fashion industry’s model encourages consumers to view clothing as disposable, more apparel items are produced each year to match consumer demand. Therefore, consumer shopping habits have increased. When the item no longer is useful to the consumer, they dispose of the item in a variety of ways including donations, resale, swap, reuse, or throw away. Even clothing items in thrift stores end up in the landfill. The clothing that is not sold in thrift stores becomes solid waste that clogs rivers, greenways, and parks. The high amounts of apparel items that are manufactured end up in the landfills and generate land pollution.</p>
-                    <h5>Health Hazards</h5>
-                    <p>Although the business model is beneficial to the consumers, the low and middle-income countries that produce the clothing bears the harmful effects. Low and middle-income countries produce 90 percent of the world’s clothing. A high concentration of the emitted pollution originates from the production of textiles while manufacturing apparel items for fast fashion retailers. Textile production is the most polluting industry in the world.Many of these factories that produce textiles have poor ventilation as cotton dust and synthetic air particulates are released into the air. This poor ventilation can potentially lead to lung disease, cancer, damage to the endocrine system, and other life-threatening conditions.</p>
-                    <h5>Air Pollution</h5>
-                    <p>One of the major sources of air pollution is the production of the most commonly used fabric in fast fashion clothing items, polyester. The material is cheap and versatile, which allows fast fashion retailers to maintain affordable prices. However, polyester creates high amounts of emission as it is reproduced from fossil fuels including crude oil. These emissions cause respiratory disease and air pollution for manufacturing workers and residents located near the production site.</p>
-                  <hr>
-              <h3>More information</h3>
-            <p>If you want more information on how to limit the use of fast fashion, follow our website. We will be providing information on eco-friendly alternatives, a guide on being an environmentally conscious shopper as a college student ,on fast fashion items! Every shopper is able to make a difference in the world.</p>
-            <br>
-            <footer id="footer">
-              <div class="container">
-                <div class="copyright">
-                  &copy; Copyright <strong><span>2021</span></strong>.
-                </div>
-              </div>
-            </footer>
-          </body>
-          
-          </html>
-          
-          
+    <div class="mySlides fade">
+        <div class="numbertext">3/4</div>
+        <img src="../Media/levis.png" style="width: 100%;">
+        <div class="text"><strong>Buy Clothes from Eco-Friendly Brands-</strong> brands are becoming more environmentally friendly. The popular jean brand, Levi’s has partnered with Cotton’s Blue Jeans Go Green program. This initiative is aimed at recycling denim. At Levi’s stores and outlets they have a recycling box where you can drop off any brand of jeans so that it could be renewed and bought by other consumers. Levi’s uses these jeans to make an extension of their brand, Levi’s Wellthread line. These jeans are made from worn-out jeans. These are offered in men and women sizes. Other brands include Reformation and Girlfriend Collective. The Girlfriend Collective makes activewear made out of recycled materials.</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">4/4</div>
+        <img src="../Media/versatiletshirt.png" style="width:100%">
+        <div class="text"><strong>Buy Versatile and Durable Clothing-</strong>The clothing from fast fashion retailers are very affordable. Therefore, the consumer pays for low quality clothing. Although, the products from eco-friendly brands are typically more expensive, they do provide excellent value as they are more durable. More durable clothing will last a longer time and the consumer will get more use of the item. In addition, by purchasing versatile clothing, the consumer does not have to worry about it going out of fashion. They could get more use of the item as they would be able to pair it with other outfits in their wardrobe. For an example, a white shirt would be very versatile and could be used in many outfits. The consumer could dress up or dress down the white shirt for any occasion. </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide (4)"></span>
+</div>
+
+<div class="section-title">
+<h3>Follow Our Social Media For More Tips</h3>
+<a href="https://twitter.com/theecoedit_?lang=en" class="fa fa-twitter"></a>
+<a href="https://www.instagram.com/theecoedit_/" class="fa fa-instagram"></a>
+<a href="https://www.facebook.com/theecoedition" class="fa fa-facebook"></a>
+<br>
+
+
+
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<br>
+<footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>2021</span></strong>.
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
+
